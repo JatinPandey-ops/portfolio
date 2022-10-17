@@ -1,4 +1,5 @@
 import React from "react";
+import Team from "../Team.jsx/Team";
 import "./About.css";
 
 export default function About() {
@@ -50,6 +51,7 @@ export default function About() {
             </p>
           </div>
         </article>
+        <Team/>
       </div>
     </section>
   );

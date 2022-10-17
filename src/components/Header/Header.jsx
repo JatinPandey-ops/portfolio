@@ -12,7 +12,7 @@ export default function Header() {
         <span className="line">Web</span>
         <span className="line">Development</span>
         <span className="line">
-          <span className="color">A</span>gency.
+          <span className="color">A</span>gency
         </span>
       </h1>
       <div className="buttons">

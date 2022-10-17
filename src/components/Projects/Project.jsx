@@ -37,6 +37,8 @@ export default function props(props) {
           Try it Live <i className="fas fa-external-link-alt" />
         </a>
       </div>
+        <small>{props.summary}</small>
+        <p>{props.details}</p>
     </div>
   </div>
   )

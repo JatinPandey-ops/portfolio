@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Socials.css"
 
-export default function Socials() {
+export default function Socials({type,Tlink,Glink}) {
+  
  return (
     <div className="social">
     <a
-      href="https://twitter.com/yagoestevez"
+      href={type === "dev"? Tlink : "https://twitter.com/websolutionns"}
       target="_blank"
       rel="noopener noreferrer"
       title="Link to author's Twitter profile"
@@ -15,22 +16,13 @@ export default function Socials() {
     </a>
     <a
       id="profile-link"
-      href="https://github.com/yagoestevez"
+      href={type === "dev"? Glink : ""}
       target="_blank"
       rel="noopener noreferrer"
       title="Link to author's GitHub Profile"
     >
       {' '}
       <i className="fab fa-github" />
-    </a>
-    <a
-      href="https://codepen.io/yagoestevez"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Link to author's Codepen Profile"
-    >
-      {' '}
-      <i className="fab fa-codepen" />
     </a>
   </div>
   )

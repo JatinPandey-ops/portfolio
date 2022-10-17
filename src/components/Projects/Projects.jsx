@@ -41,14 +41,32 @@ export default function Projects() {
             tech="js css react node"
             link="https://leafy-manatee-99b6e0.netlify.app/"
             repo="https://github.com/yagoestevez/anonymous-message-board"
+            summary="            Built using Node, Express, MongoDB, CSS + Bulma, React.js and React
+            Router."
+            details="This is a full-stack website that we made through which people can share,watch and upload videos"
           />
-          <small>
-            Built using Node, Express, MongoDB, CSS + Bulma, React.js and React
-            Router.
-          </small>
-          <p>
-            This is a full-stack website that we made through which people can share,watch and upload videos
-          </p>
+  
+          <Project
+            title="Random Quoting Machine."
+            img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/QuotingMachine.jpg'}
+            tech="js vue css"
+            link="https://codepen.io/yagoestevez/full/bxgEyd/"
+            repo="https://github.com/yagoestevez/random-quoting-machine"
+            summary="Built using VueJS, Axios and CSS + Bootstrap."
+            details="A random quoting app which retrieves pictures and quotes from two different APIs."
+          />
+            
+            <Project
+            title="URL Shortener Microservice."
+            img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Cortala.jpg'}
+            tech="js node css"
+            link="https://cortala.glitch.me/example"
+            repo="https://github.com/yagoestevez/cortala"
+            summary="Built using Node, Express, CSS + Bootstrap and Pug."
+            details="         A microservice which takes a raw URL and makes it a short link to make it easy to sent
+            it through the Internet."
+          />
+            
         </div>
       </div>
     </section>
