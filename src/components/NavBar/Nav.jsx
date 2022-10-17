@@ -6,10 +6,15 @@ export default function Nav({toggleMenu,open}) {
     <div>
          <nav id="navbar">
         <div className="nav-wrapper">
-          <p className="brand">
-            Ja
-            <strong>tin</strong>
-          </p>
+          <div className="brand">
+            <div>
+            <span className="highlight"><strong>S</strong></span>hiv 
+            <span  className="highlight"><strong>S</strong></span>hakti
+
+            <span id="websolution">websolutions</span>
+            </div>
+            
+          </div>
           <a
             onClick={toggleMenu}
             className={open === 'active' ? 'menu-button active' : 'menu-button'}

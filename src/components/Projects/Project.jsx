@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Project.css"
 
-export default function Project(props) {
+export default function props(props) {
     const tech = {
         sass: 'fab fa-sass',
         css: 'fab fa-css3-alt',
@@ -22,7 +22,7 @@ export default function Project(props) {
     <div className="project-details">
       <div className="project-tile">
         <p className="icons">
-          {props.tech.split(' ').map(t => (
+          {props.tech?.split(' ').map(t => (
             <i className={tech[t]} key={t} />
           ))}
         </p>
@@ -30,9 +30,9 @@ export default function Project(props) {
       </div>
       {props.children}
       <div className="buttons">
-        <a href={repo} target="_blank" rel="noopener noreferrer">
+        {/* <a href={repo} target="_blank" rel="noopener noreferrer">
           View source <i className="fas fa-external-link-alt" />
-        </a>
+        </a> */}
         <a href={link} target="_blank" rel="noopener noreferrer">
           Try it Live <i className="fas fa-external-link-alt" />
         </a>

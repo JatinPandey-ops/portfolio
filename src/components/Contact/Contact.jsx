@@ -9,17 +9,17 @@ export default function Contact() {
         <div className="heading">
           <p className="title">
             Want to <br />
-            contact me?
+            work with us?
           </p>
           <p className="separator" />
           <p className="subtitle">
             Please, use the form below or send an email to {''}
             <span className="mail">
-              web
+              Shiv
               <i className="fas fa-at at" />
-              yagoestevez
+              Shakti
               <i className="fas fa-circle dot" />
-              com
+              Websolutions
             </span>
             :
           </p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Socials from "../Socials/Socials"
 import './Menu.css'
 export default function Menu({toggleMenu,open}) {
   return (
@@ -27,7 +28,7 @@ export default function Menu({toggleMenu,open}) {
           </a>
         </li>
       </ul>
-      {/* <SocialLinks /> */}
+      <Socials />
     </div>
   </div>
   )
