@@ -50,6 +50,10 @@ export default function About() {
               a few recent projects that we have worked on.
             </p>
           </div>
+          <div className="title">
+            <h3>Our team😎</h3>
+            <p className="separator" />
+          </div>
         </article>
         <Team/>
       </div>
