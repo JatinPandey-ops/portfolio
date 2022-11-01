@@ -6,6 +6,8 @@ import Header from "./components/Header/Header";
 import Menu from "./components/Menu/Menu";
 import Nav from "./components/NavBar/Nav";
 import Projects from "./components/Projects/Projects";
+import 'react-toastify/dist/ReactToastify.css';
+import { toast, ToastContainer } from 'react-toastify';
 
 
 
@@ -64,6 +66,7 @@ navSmoothScrolling()
         <Projects />
         <Contact />
         <Footer/>
+        <ToastContainer />
     </>
   );
 }

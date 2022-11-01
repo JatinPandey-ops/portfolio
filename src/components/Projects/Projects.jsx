@@ -1,23 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import Project from "./Project";
-// import { app } from "../../Firebase"
-// import { getFirestore } from "firebase/firestore";
-// import { collection,getDocs } from "firebase/firestore";
+
 
 export default function Projects() {
-  //   const [projects,setProjects] = useState([])
-  //   const db = getFirestore(app);
-
-  // const fetch = async () => {
-  //       const querySnapshot = await getDocs(collection(db, "projects"));
-  //       setProjects(querySnapshot)
-  //       // querySnapshot.forEach((doc) => {
-  //       // console.log(`${doc.id} => ${doc.data()}`);
-  //     // })
-  //     fetch()
-  // }
-
   return (
     <section id="projects">
       <div className="projects-container">
@@ -41,7 +27,7 @@ export default function Projects() {
             tech="js css react node"
             link="https://leafy-manatee-99b6e0.netlify.app/"
             repo="https://github.com/yagoestevez/anonymous-message-board"
-            summary="            Built using Node, Express, MongoDB, CSS + Bulma, React.js and React
+            summary="Built using Node, Express, MongoDB, CSS + Bulma, React.js and React
             Router."
             details="This is a full-stack website that we made through which people can share,watch and upload videos"
           />
@@ -63,7 +49,7 @@ export default function Projects() {
             link="https://cortala.glitch.me/example"
             repo="https://github.com/yagoestevez/cortala"
             summary="Built using Node, Express, CSS + Bootstrap and Pug."
-            details="         A microservice which takes a raw URL and makes it a short link to make it easy to sent
+            details="A microservice which takes a raw URL and makes it a short link to make it easy to sent
             it through the Internet."
           />
             
