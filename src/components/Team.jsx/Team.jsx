@@ -24,7 +24,7 @@ export default function Team() {
 						<img src="https://image.flaticon.com/icons/png/256/4213/4213732.png"/>
 					</div>
 					<div class="contentBx">
-						<h3>Ashish<br/><span>Front-end dev</span></h3>
+						<h3>Sarmillah<br/><span>Front-end dev</span></h3>
 					</div>
 				</div>
                 <div class="sci">
